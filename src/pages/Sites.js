@@ -33,7 +33,7 @@ class Sites extends Component {
 
         return (
             <div style={parentContainerStyles}>
-                <NavBar/>
+                <img src="../images/wagon.svg" alt=""/>
 
             </div>
         );

@@ -1,0 +1,32 @@
+.logo {
+    background: url(./images/wagon.png) center 0 no-repeat;
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 26px;
+    overflow: hidden;
+    text-indent: -9999em;
+}
+
+.demo-logo {
+    font: 900 90px/100px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: -2px;
+    margin: 10px 0;
+}
+.demo-headline {
+    padding: 40px 0 60px;
+    text-align: center;
+}
+
+.demo-logo small {
+    color: rgba(52, 73, 94, 0.3);
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding-top: 5px;
+}
+
+.padding {
+    padding: 1rem;
+}
