@@ -1,8 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import $ from 'jquery';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'flat-ui/bootstrap/css/bootstrap.css';
+import 'flat-ui/css/flat-ui.css';
+import ReactDOM from 'react-dom';
+import './index.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
