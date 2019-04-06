@@ -1,5 +1,4 @@
 import React from 'react';
-import $ from 'jquery';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'flat-ui/bootstrap/css/bootstrap.css';

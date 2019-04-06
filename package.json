@@ -9,8 +9,10 @@
     "popper.js": "^1.15.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "react-spinners": "^0.5.3"
   },
+  "proxy": "https://site-indexer-api.herokuapp.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
