@@ -5,5 +5,4 @@ git add .
 git commit -a -m "Fix"
 git push heroku master
 git push origin master
-firebase deploy
 
