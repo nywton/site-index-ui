@@ -1,5 +1,5 @@
 {
-  "main.css": "/build/static/css/main.5139fb77.chunk.css",
+  "main.css": "/build/static/css/main.2c7d3e08.chunk.css",
   "main.js": "/build/static/js/main.72b82880.chunk.js",
   "main.js.map": "/build/static/js/main.72b82880.chunk.js.map",
   "runtime~main.js": "/build/static/js/runtime~main.1471495f.js",
@@ -7,9 +7,9 @@
   "static/js/2.d59ccc11.chunk.js": "/build/static/js/2.d59ccc11.chunk.js",
   "static/js/2.d59ccc11.chunk.js.map": "/build/static/js/2.d59ccc11.chunk.js.map",
   "index.html": "/build/index.html",
-  "precache-manifest.4601bd0b9fab814caf75874aec27ecb2.js": "/build/precache-manifest.4601bd0b9fab814caf75874aec27ecb2.js",
+  "precache-manifest.a19242998550623f3c772c2aae2fae77.js": "/build/precache-manifest.a19242998550623f3c772c2aae2fae77.js",
   "service-worker.js": "/build/service-worker.js",
-  "static/css/main.5139fb77.chunk.css.map": "/build/static/css/main.5139fb77.chunk.css.map",
+  "static/css/main.2c7d3e08.chunk.css.map": "/build/static/css/main.2c7d3e08.chunk.css.map",
   "static/media/flat-ui.min.css": "/build/static/media/lato-regular.77f286e4.eot",
   "static/media/index.css": "/build/static/media/wagon.8517b50f.png"
 }
