@@ -1,12 +1,23 @@
 import React, { Component } from 'react';
 import './App.css';
 import CreateSiteIndex from "./pages/CreateSiteIndex";
+import Sites from "./pages/Sites";
+import SiteDetails from "./pages/SiteDetails";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <CreateSiteIndex/>
+          <Router>
+              {
+                  <Switch>
+                      <Route exact path="/" component={CreateSiteIndex} />
+                      <Route  path="/sites" component={Sites} />
+                      <Route path="/details/:id" component={SiteDetails} />
+                  </Switch>
+              }
+          </Router>
       </div>
     );
   }

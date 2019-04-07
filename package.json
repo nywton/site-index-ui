@@ -4,11 +4,14 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
     "flat-ui": "^2.1.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.15.0",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
     "react-spinners": "^0.5.3"
   },

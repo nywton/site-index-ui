@@ -1,13 +1,17 @@
 import Resquester from './Requester';
+const SITES_PATH = '/sites';
 
 export default class SiteService {
-    sitesPath = '/sites';
-    getAll() {
-        return Resquester.get(this.sitesPath);
+    static getAll() {
+        return Resquester.get(SITES_PATH);
     }
 
-    save(url) {
-        return Resquester.post(this.sitesPath, {"data": {"type":"sites", "attributes":{"url":url}}})
+    static getById(id) {
+        return Resquester.get( `${SITES_PATH}/${id}`);
+    }
+
+    static save(url) {
+        return Resquester.post(SITES_PATH, {data: {type:"sites", attributes:{url:url}}})
     }
 
 }

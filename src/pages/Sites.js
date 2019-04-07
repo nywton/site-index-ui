@@ -12,7 +12,6 @@ class Sites extends Component {
 
         return (
             <div style={parentContainerStyles}>
-                <img src="../images/wagon.svg" alt=""/>
 
             </div>
         );

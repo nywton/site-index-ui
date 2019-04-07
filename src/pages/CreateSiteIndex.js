@@ -14,23 +14,32 @@ class CreateSiteIndex extends Component {
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.createSite = this.createSite.bind(this);
+        this.handleKeyPress = this.handleKeyPress.bind(this);
     }
 
     createSite() {
-        const service = new SiteService();
-        return service.save(this.state.url);
+        return SiteService.save(this.state.siteUrl);
     }
 
     handleChange(event) {
         this.setState({siteUrl: event.target.value});
     }
 
+    handleKeyPress(event) {
+        if (event.key === 'Enter') {
+            this.handleSubmit();
+        }
+    }
+
     handleSubmit() {
         this.setState({loading: true});
         this.createSite()
-            .then(data => {
+            .then((data) => {
                 console.log(data);
                 this.setState({loading: false})
+            })
+            .catch(error => {
+                console.log(error);
             });
     }
 
@@ -70,20 +79,18 @@ class CreateSiteIndex extends Component {
                         <h1 className="demo-logo">
                             <div className="logo"/>
                             Site Indexer
-                            <small>Search for tags for free</small>
+                            <small>Search tags</small>
                         </h1>
                     </div>
-                    <form>
-                        <div className="row">
-                            <div className="col-lg-10">
-                                <input type="text" className="form-control" id="search" onChange={this.handleChange} value={this.state.value}
-                                       placeholder="Paste your URL..." />
-                            </div>
-                            <div className="col-lg-2">
-                                <button disabled={this.state.loading || (this.state.siteUrl === '')} type="button" onClick={this.handleSubmit} className="btn btn-block btn-lg btn-primary">Go!</button>
-                            </div>
+                    <div className="row">
+                        <div className="col-lg-10">
+                            <input type="text" className="form-control" id="search" onChange={this.handleChange} value={this.state.value}
+                                   placeholder="Paste your URL..." />
                         </div>
-                    </form>
+                        <div className="col-lg-2">
+                            <button onKeyPress={this.handleKeyPress} disabled={this.state.loading || (this.state.siteUrl === '')} type="button" onClick={this.handleSubmit} className="btn btn-block btn-lg btn-primary">Go!</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         );

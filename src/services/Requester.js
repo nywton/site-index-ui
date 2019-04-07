@@ -48,7 +48,8 @@ class Requester {
 }
 
 const http = axios.create({
-  baseURL: 'https://site-indexer-api.herokuapp.com'
+  // baseURL: 'https://site-indexer-api.herokuapp.com'
+  baseURL: 'http://localhost:3000'
 });
 
 http.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
