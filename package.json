@@ -15,7 +15,7 @@
     "react-spinners": "^0.5.3",
     "url-regex": "^4.1.1"
   },
-  "proxy": "https://site-indexer-api.herokuapp.com",
+  "proxy": ["https://site-indexer-api.herokuapp.com", "ttp://localhost:3001", "http://localhost:8080", "http://localhost:3000"],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
