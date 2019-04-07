@@ -1,0 +1,18 @@
+{
+  "main.css": "/site-indexer-ui/static/css/main.cc3524ca.chunk.css",
+  "main.js": "/site-indexer-ui/static/js/main.5ca8b53d.chunk.js",
+  "main.js.map": "/site-indexer-ui/static/js/main.5ca8b53d.chunk.js.map",
+  "runtime~main.js": "/site-indexer-ui/static/js/runtime~main.e826c4fb.js",
+  "runtime~main.js.map": "/site-indexer-ui/static/js/runtime~main.e826c4fb.js.map",
+  "static/css/2.082bdcdc.chunk.css": "/site-indexer-ui/static/css/2.082bdcdc.chunk.css",
+  "static/js/2.fff4ba54.chunk.js": "/site-indexer-ui/static/js/2.fff4ba54.chunk.js",
+  "static/js/2.fff4ba54.chunk.js.map": "/site-indexer-ui/static/js/2.fff4ba54.chunk.js.map",
+  "index.html": "/site-indexer-ui/index.html",
+  "precache-manifest.7fe6e0a76bffa9d46c490d4e497d00cc.js": "/site-indexer-ui/precache-manifest.7fe6e0a76bffa9d46c490d4e497d00cc.js",
+  "service-worker.js": "/site-indexer-ui/service-worker.js",
+  "static/css/2.082bdcdc.chunk.css.map": "/site-indexer-ui/static/css/2.082bdcdc.chunk.css.map",
+  "static/css/main.cc3524ca.chunk.css.map": "/site-indexer-ui/static/css/main.cc3524ca.chunk.css.map",
+  "static/media/flat-ui.css": "/site-indexer-ui/static/media/lato-regular-webfont.ff97d89c.svg",
+  "static/media/bootstrap.css": "/site-indexer-ui/static/media/glyphicons-halflings-regular.aa9c7490.ttf",
+  "static/media/index.css": "/site-indexer-ui/static/media/wagon.8517b50f.png"
+}
