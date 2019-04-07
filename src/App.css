@@ -168,3 +168,15 @@
   src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+@media (max-width: 576px) {
+  .logo {
+    width: 150px !important;
+    height: 150px !important;
+    background-size: 150px 150px !important;
+  }
+
+  h1.demo-logo {
+    font-size: 40px !important;
+  }
+}
