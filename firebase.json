@@ -1,5 +1,16 @@
 {
   "hosting": {
+
+    "rewrites": [ {
+      "source": "**",
+      "destination": "build/index.html"
+    }, {
+      "source": "/build{,/**}",
+      "destination": "/index.html"
+    }, {
+      "source": "!/@(js|css)/**",
+      "destination": "build/index.html"
+    } ],
     "public": "build",
     "ignore": [
       "firebase.json",
