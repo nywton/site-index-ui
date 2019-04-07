@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import SiteService from '../services/SiteService'
 import { css } from '@emotion/core';
 import PacManLoader from 'react-spinners/ClipLoader';
+import urlRegex from 'url-regex'
 
 class CreateSiteIndex extends Component {
 
@@ -10,7 +11,8 @@ class CreateSiteIndex extends Component {
         this.state = {
             siteUrl: '',
             loading: false,
-        };
+            error: false,
+    };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.createSite = this.createSite.bind(this);
@@ -18,10 +20,15 @@ class CreateSiteIndex extends Component {
     }
 
     createSite() {
-        return SiteService.save(this.state.siteUrl);
+        let {siteUrl} = this.state;
+        if(siteUrl[0] !== 'h') {
+            siteUrl = 'https://' + siteUrl;
+        }
+        return SiteService.save(siteUrl);
     }
 
     handleChange(event) {
+        urlRegex().test(event.target.value) ? this.setState({error: false}) : this.setState({error: true})
         this.setState({siteUrl: event.target.value});
     }
 
@@ -34,12 +41,12 @@ class CreateSiteIndex extends Component {
     handleSubmit() {
         this.setState({loading: true});
         this.createSite()
-            .then((data) => {
-                console.log(data);
+            .then((result) => {
                 this.setState({loading: false})
+                this.props.history.push(`/details/${result.data.resource.id}`)
             })
             .catch(error => {
-                console.log(error);
+                alert('Desculpe, nenhum resultado encontrado a partir da URL informada.')
             });
     }
 
@@ -84,8 +91,10 @@ class CreateSiteIndex extends Component {
                     </div>
                     <div className="row">
                         <div className="col-lg-10">
-                            <input type="text" className="form-control" id="search" onChange={this.handleChange} value={this.state.value}
-                                   placeholder="Paste your URL..." />
+                            <div className={"form-group" + (this.state.error ? 'has-error' : '')}>
+                                <input type="text" className="form-control" id="search" onChange={this.handleChange} value={this.state.value}
+                                       placeholder="Paste your URL..." />
+                            </div>
                         </div>
                         <div className="col-lg-2">
                             <button onKeyPress={this.handleKeyPress} disabled={this.state.loading || (this.state.siteUrl === '')} type="button" onClick={this.handleSubmit} className="btn btn-block btn-lg btn-primary">Go!</button>
