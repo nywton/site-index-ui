@@ -17,7 +17,7 @@ class NavBar extends Component {
                     {/*</ul>*/}
                     <ul className="nav navbar-nav navbar-right">
                         <div className="padding pull-right">
-                            <a className="github-button margin-top" href="https://github.com/nywton/site-index-ui" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+                            {/*<a className="github-button margin-top" href="https://github.com/nywton/site-index-ui" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>*/}
                         </div>
                     </ul>
                 </div>
