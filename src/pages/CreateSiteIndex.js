@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import SiteService from '../services/SiteService'
-import { css } from '@emotion/core';
 import PacManLoader from 'react-spinners/ClipLoader';
 import urlRegex from 'url-regex'
 
@@ -58,7 +57,7 @@ class CreateSiteIndex extends Component {
             display: 'table'
         };
 
-        const override = css`
+        const override = `
             position: absolute;
             top: 40%;
             left: 40%;
