@@ -1,6 +1,5 @@
 import React from 'react';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 import 'flat-ui/bootstrap/css/bootstrap.css';
 import 'flat-ui/css/flat-ui.css';
 import ReactDOM from 'react-dom';
