@@ -2,7 +2,7 @@
   "name": "site-index-ui",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nywton.github.io/site-indexer-ui",
+  "homepage": "https://site-indexer-ui.herokuapp.com",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
@@ -23,8 +23,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build",
+//    "predeploy": "yarn run build",
+//    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
 
   },
