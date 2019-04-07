@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SiteService from '../services/SiteService'
+import { css } from '@emotion/core';
 import PacManLoader from 'react-spinners/ClipLoader';
 import urlRegex from 'url-regex'
 
@@ -57,7 +58,7 @@ class CreateSiteIndex extends Component {
             display: 'table'
         };
 
-        const override = `
+        const override = css`
             position: absolute;
             top: 40%;
             left: 40%;
@@ -77,7 +78,7 @@ class CreateSiteIndex extends Component {
                     loading={this.state.loading}
                 />
                 <div className="padding pull-right">
-                    {/*<a className="github-button margin-top" href="https://github.com/nywton/site-index-ui" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>*/}
+                    <a className="github-button margin-top" href="https://github.com/nywton/site-index-ui" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
                 </div>
 
                 <div className="container">

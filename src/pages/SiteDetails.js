@@ -43,7 +43,6 @@ export default class SiteDetails extends Component {
 
 
     render() {
-        let { site } = this.state;
         const parentContainerStyles = {
             position: 'absolute',
             height: '100%',
