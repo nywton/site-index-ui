@@ -59,7 +59,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "yarn && yarn build"
+    "heroku-postbuild": "cd build/ && yarn && yarn build"
   },
   "browserslist": [
     ">0.2%",
