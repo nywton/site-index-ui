@@ -69,12 +69,6 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-  "devDependencies": {
-    "webpack": "4.28.3",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "3.1.14",
-    "webpack-manifest-plugin": "2.0.4"
-  },
   "browserslist": [
     ">0.2%",
     "not dead",
@@ -130,5 +124,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0"
   }
 }
