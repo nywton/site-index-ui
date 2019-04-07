@@ -58,8 +58,9 @@
     "extends": "react-app"
   },
   "scripts": {
-    "start": "node index.js",
-    "heroku-postbuild": "cd build/ && yarn && yarn build"
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "heroku-postbuild": "yarn && yarn build"
   },
   "browserslist": [
     ">0.2%",

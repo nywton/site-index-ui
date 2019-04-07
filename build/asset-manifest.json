@@ -1,0 +1,15 @@
+{
+  "main.css": "/build/static/css/main.5139fb77.chunk.css",
+  "main.js": "/build/static/js/main.72b82880.chunk.js",
+  "main.js.map": "/build/static/js/main.72b82880.chunk.js.map",
+  "runtime~main.js": "/build/static/js/runtime~main.1471495f.js",
+  "runtime~main.js.map": "/build/static/js/runtime~main.1471495f.js.map",
+  "static/js/2.d59ccc11.chunk.js": "/build/static/js/2.d59ccc11.chunk.js",
+  "static/js/2.d59ccc11.chunk.js.map": "/build/static/js/2.d59ccc11.chunk.js.map",
+  "index.html": "/build/index.html",
+  "precache-manifest.08f549882ae3893cf0ca7053dfb89fbc.js": "/build/precache-manifest.08f549882ae3893cf0ca7053dfb89fbc.js",
+  "service-worker.js": "/build/service-worker.js",
+  "static/css/main.5139fb77.chunk.css.map": "/build/static/css/main.5139fb77.chunk.css.map",
+  "static/media/flat-ui.min.css": "/build/static/media/lato-regular.77f286e4.eot",
+  "static/media/index.css": "/build/static/media/wagon.8517b50f.png"
+}
