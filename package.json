@@ -1,11 +1,12 @@
 {
-  "name": "site-index-ui",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://site-indexer-ui.herokuapp.com",
+  "homepage": "/build",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
+    "firebase-tools": "^6.5.3",
     "flat-ui": "^2.1.1",
     "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
@@ -24,7 +25,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-
   },
   "eslintConfig": {
     "extends": "react-app"
