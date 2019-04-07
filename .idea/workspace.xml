@@ -2,60 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83bf667b-5222-40fa-bf3a-f0b364eadc15" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.1fd8b6d6e68d2f0f1a8053843f69df28.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/2.161bed05.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/2.161bed05.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.5aa5a591.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.5aa5a591.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.0edaf4c7.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.0edaf4c7.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.c3b46e95.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.c3b46e95.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.1471495f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.1471495f.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/Flat-UI-Icons.659ea053.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/Flat-UI-Icons.b05768e8.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/Flat-UI-Icons.c8a468bc.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/Flat-UI-Icons.cda8361a.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/glyphicons-halflings-regular.2469ccfe.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/glyphicons-halflings-regular.54b1190d.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/glyphicons-halflings-regular.7c4cbe92.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/glyphicons-halflings-regular.aa9c7490.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/imac-2x.740d287f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-black-webfont.5407de99.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-black-webfont.5f46f9c0.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-black-webfont.951e81fd.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-black-webfont.ce29ce79.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-bold-webfont.18f3bc8b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-bold-webfont.2d4919ce.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-bold-webfont.796a7724.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-bold-webfont.eaa09e15.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-bolditalic-webfont.1ea78263.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-bolditalic-webfont.81dcf1c1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-bolditalic-webfont.8a6af318.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-bolditalic-webfont.d7345403.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-italic-webfont.0bac30a2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-italic-webfont.3863ccce.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-italic-webfont.aadadb6c.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-italic-webfont.cce53fc2.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-light-webfont.0f4346bc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-light-webfont.1b75c6e4.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-light-webfont.288eb21c.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-light-webfont.f652f545.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-regular-webfont.27faf192.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-regular-webfont.544d9697.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-regular-webfont.77f286e4.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/lato-regular-webfont.ff97d89c.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/wagon.8517b50f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/registerServiceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vendor/flat-ui/dist/css/flat-ui.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
@@ -77,6 +25,38 @@
                 <element signature="e#116161#116964#1" expanded="true" />
                 <element signature="e#122473#123232#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.firebaserc">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="36" selection-start-column="36" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/SiteDetails.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1005">
+              <caret line="72" column="94" selection-start-line="72" selection-start-column="94" selection-end-line="72" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/NavBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -110,6 +90,7 @@
       <find>/images</find>
       <find>../images/login/imac-2x.png</find>
       <find>images</find>
+      <find>github-button</find>
     </findStrings>
     <replaceStrings>
       <replace>200</replace>
@@ -129,7 +110,6 @@
         <option value="$PROJECT_DIR$/src/setupProxy.js" />
         <option value="$PROJECT_DIR$/src/pages/Sites.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/components/NavBar.js" />
         <option value="$PROJECT_DIR$/src/services/SiteService.js" />
         <option value="$PROJECT_DIR$/src/components/AccordionItem.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
@@ -140,7 +120,6 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/firebase.json" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/vendor/flat-ui/dist/scripts/flat-ui.js" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -148,6 +127,8 @@
         <option value="$PROJECT_DIR$/src/serviceWorker.js" />
         <option value="$PROJECT_DIR$/src/base.js" />
         <option value="$PROJECT_DIR$/src/vendor/flat-ui/dist/css/flat-ui.min.css" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/src/components/NavBar.js" />
       </list>
     </option>
   </component>
@@ -174,58 +155,19 @@
             <path>
               <item name="site-index-ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="site-index-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-index-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-index-ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="site-index-ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="site-index-ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="site-index-ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="site-index-ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-index-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-index-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="flat-ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-index-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-index-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="flat-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-index-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-index-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="flat-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-index-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-index-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="flat-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,6 +187,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/vendor/flat-ui/dist/css/images/login" />
       <recent name="$PROJECT_DIR$/src/vendor/flat-ui/dist/css" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -276,15 +219,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554549856020</updated>
-      <workItem from="1554549857542" duration="33463000" />
+      <workItem from="1554549857542" duration="33767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33463000" />
+    <option name="totallyTimeSpent" value="33767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
@@ -341,13 +285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Sites.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -379,16 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/SiteDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="72" column="94" selection-start-line="72" selection-start-column="94" selection-end-line="72" selection-end-column="94" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/CreateSiteIndex.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -415,9 +342,6 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.firebaserc">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -457,13 +381,6 @@
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -502,6 +419,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendor/flat-ui/dist/css/images/login/imac.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/vendor/flat-ui/dist/css/flat-ui.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -510,6 +430,30 @@
             <element signature="e#116161#116964#1" expanded="true" />
             <element signature="e#122473#123232#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.firebaserc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/SiteDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="72" column="94" selection-start-line="72" selection-start-column="94" selection-end-line="72" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NavBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
