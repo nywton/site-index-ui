@@ -52,16 +52,23 @@ class CreateSiteIndex extends Component {
 
     render() {
         const parentContainerStyles = {
-            position: 'fixed',
+            position: 'relative',
+            display: 'table',
             height: '100%',
             width: '100%',
-            display: 'table'
+        };
+        const parentContainerStylesFlex = {
+            position: 'relative',
+            display: 'flex',
+            'justify-content': 'center',
+            'align-items': 'center',
+            height: '100%',
+            width: '100%',
         };
 
         const override = css`
             position: absolute;
-            top: 40%;
-            left: 40%;
+            margin-top: 300px;
             width: 100%;
             height: 100%;
             z-index: 10;
@@ -70,13 +77,15 @@ class CreateSiteIndex extends Component {
 
         return (
             <div style={parentContainerStyles}>
-                <PacManLoader
-                    css={override}
-                    sizeUnit={"px"}
-                    size={150}
-                    color={'#123abc'}
-                    loading={this.state.loading}
-                />
+                <div style={parentContainerStylesFlex}>
+                    <PacManLoader
+                        css={override}
+                        sizeUnit={"px"}
+                        size={150}
+                        color={'#123abc'}
+                        loading={this.state.loading}
+                    />
+                </div>
                 <div className="padding pull-right">
                     <a className="github-button margin-top" href="https://github.com/nywton/site-index-ui" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
                 </div>

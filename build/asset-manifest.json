@@ -1,15 +1,15 @@
 {
-  "main.css": "/build/static/css/main.1d92de51.chunk.css",
-  "main.js": "/build/static/js/main.5f8431bc.chunk.js",
-  "main.js.map": "/build/static/js/main.5f8431bc.chunk.js.map",
+  "main.css": "/build/static/css/main.86b8f7db.chunk.css",
+  "main.js": "/build/static/js/main.ffdab8d2.chunk.js",
+  "main.js.map": "/build/static/js/main.ffdab8d2.chunk.js.map",
   "runtime~main.js": "/build/static/js/runtime~main.1471495f.js",
   "runtime~main.js.map": "/build/static/js/runtime~main.1471495f.js.map",
   "static/js/2.dfa0948b.chunk.js": "/build/static/js/2.dfa0948b.chunk.js",
   "static/js/2.dfa0948b.chunk.js.map": "/build/static/js/2.dfa0948b.chunk.js.map",
   "index.html": "/build/index.html",
-  "precache-manifest.4ee79b364c528259ae7fb7ab86d00382.js": "/build/precache-manifest.4ee79b364c528259ae7fb7ab86d00382.js",
+  "precache-manifest.02b1748734966a6b3c9a1b10a1974623.js": "/build/precache-manifest.02b1748734966a6b3c9a1b10a1974623.js",
   "service-worker.js": "/build/service-worker.js",
-  "static/css/main.1d92de51.chunk.css.map": "/build/static/css/main.1d92de51.chunk.css.map",
+  "static/css/main.86b8f7db.chunk.css.map": "/build/static/css/main.86b8f7db.chunk.css.map",
   "static/media/flat-ui.min.css": "/build/static/media/lato-regular.77f286e4.eot",
   "static/media/index.css": "/build/static/media/wagon.8517b50f.png"
 }
