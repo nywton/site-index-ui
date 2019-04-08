@@ -82,6 +82,7 @@
     color: #121212;
 }
 .accordion-item__icon {
+    z-index: 10;
     width: 2rem;
     height: 2rem;
     transition: transform 0.3s ease-in-out;

@@ -27,17 +27,16 @@ export default class SiteDetails extends Component {
     }
 
     getTags(tag) {
-
         return this.state.site.included.filter(i => i.attributes.name.toLocaleLowerCase() === tag.name.toLowerCase())
     }
 
-    toggleTag(e) {
-        const {tags} = this.state
-        // e.preventDefault()
-        if(tags[e.target.id]) {
-            let oldVal = tags.find(item => item.name === (tags[e.target.id] || {}).name)
-            oldVal.opened = !oldVal.opened
-            this.setState({tags})
+    toggleTag(e, tag) {
+        e.preventDefault();
+        const {tags} = this.state;
+        if(tag) {
+            let oldVal = tags.find(item => item.name === tag.name);
+            oldVal.opened = !oldVal.opened;
+            this.setState({tags});
         }
     }
 
@@ -57,21 +56,22 @@ export default class SiteDetails extends Component {
                     <div className="row">
                         <div {...{ className: 'wrapper col-12' }}>
                             <ul {...{ className: 'accordion-list' }}>
-                                {this.state.tags.map((tag, key) => {
+                                {this.state.tags.map((tag) => {
                                     return (
                                         <li
-                                            {...{ className: 'accordion-list__item', key }} onClick={(e) => this.toggleTag(e)}>
+                                            {...{ className: 'accordion-list__item', key: (1 + Math.random() * (100 - 1))}}>
                                             <div
                                                 {...{
                                                     className: `accordion-item, ${tag.opened && 'accordion-item--opened'}`
                                                 }}
+                                                onClick={(e) => this.toggleTag(e, tag)}
                                             >
-                                                <div id={key}
+                                                <div id={1 + Math.random() * (100 - 1)}
                                                      {...{ className: 'accordion-item__line' }}>
                                                     <h3 {...{ className: 'accordion-item__title' }}>
                                                         {tag.name === 'a' ? 'Links' : tag.name}: {this.getTags(tag).length}
                                                     </h3>
-                                                    <span {...{ className: 'accordion-item__icon' }}/>
+                                                    <div {...{ className: 'accordion-item__icon' }}/>
                                                 </div>
                                                 <div {...{ className: 'accordion-item__inner' }}>
                                                     <div {...{ className: 'accordion-item__content' }}>
