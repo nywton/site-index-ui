@@ -33,7 +33,7 @@ export default class SiteDetails extends Component {
 
     toggleTag(e) {
         const {tags} = this.state
-        e.preventDefault()
+        // e.preventDefault()
         if(tags[e.target.id]) {
             let oldVal = tags.find(item => item.name === (tags[e.target.id] || {}).name)
             oldVal.opened = !oldVal.opened
@@ -55,19 +55,19 @@ export default class SiteDetails extends Component {
                 <NavBar/>
                 <div className="container">
                     <div className="row">
-                        <div {...{ className: 'wrapper' }}>
+                        <div {...{ className: 'wrapper col-12' }}>
                             <ul {...{ className: 'accordion-list' }}>
                                 {this.state.tags.map((tag, key) => {
                                     return (
-                                        <li {...{ className: 'accordion-list__item', key }}>
+                                        <li
+                                            {...{ className: 'accordion-list__item', key }} onClick={(e) => this.toggleTag(e)}>
                                             <div
-
-                                                onClick={(e) => this.toggleTag(e)}
                                                 {...{
                                                     className: `accordion-item, ${tag.opened && 'accordion-item--opened'}`
                                                 }}
                                             >
-                                                <div id={key} {...{ className: 'accordion-item__line' }}>
+                                                <div id={key}
+                                                     {...{ className: 'accordion-item__line' }}>
                                                     <h3 {...{ className: 'accordion-item__title' }}>
                                                         {tag.name === 'a' ? 'Links' : tag.name}: {this.getTags(tag).length}
                                                     </h3>
