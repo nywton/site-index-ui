@@ -6,7 +6,8 @@ class NavBar extends Component {
         return(<div className="navbar navbar-default navbar-static-top" role="navigation">
             <div className="container">
                 <div className="navbar-header">
-                    <a className="navbar-brand" href="https://site-indexer-ui.herokuapp.com"><img src={logo} className="img-responsive" alt="logo"/>Site Indexer</a>
+                    <img src={logo} className="img-responsive navbar-brand-logo" alt="logo"/>
+                    <a className="navbar-brand" href="https://site-indexer-ui.herokuapp.com">Site Indexer</a>
                 </div>
                 <div className="navbar-collapse collapse">
                     {/*<ul className="nav navbar-nav">*/}
