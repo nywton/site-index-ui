@@ -79,7 +79,7 @@ export default class SiteDetails extends Component {
                                                             this.getTags(tag).map(t => {
                                                                 return (
                                                                     <p {...{ className: 'accordion-item__paragraph' }}>
-                                                                        {tag === 'a' ? `<a href=${t.attributes.content}>${t.attributes.content}</a>` : t.attributes.content}
+                                                                        {t.attributes.content}
                                                                     </p>
                                                                 );
                                                             })
