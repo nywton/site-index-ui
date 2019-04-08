@@ -65,6 +65,7 @@
     transition-property: opacity, transform;
 }
 .accordion-item__line {
+    cursor: pointer;
     display: block;
     padding: 1.8rem 1.2rem;
     display: flex;
@@ -81,8 +82,8 @@
     color: #121212;
 }
 .accordion-item__icon {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 2rem;
+    height: 2rem;
     transition: transform 0.3s ease-in-out;
     background-size: contain;
     background-repeat: no-repeat;

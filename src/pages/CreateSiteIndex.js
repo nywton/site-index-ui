@@ -60,8 +60,8 @@ class CreateSiteIndex extends Component {
         const parentContainerStylesFlex = {
             position: 'relative',
             display: 'flex',
-            'justify-content': 'center',
-            'align-items': 'center',
+            justifyContent: 'center',
+            alignItems: 'center',
             height: '100%',
             width: '100%',
         };
