@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cce53fc2eb9e68832563771801e3b84b",
-    "url": "./static/media/lato-italic.cce53fc2.eot"
+    "revision": "1ead7fde79bd4941a706563f6040e716",
+    "url": "./static/media/lato-bolditalic.1ead7fde.svg"
   },
   {
-    "revision": "ecdac858a62d54f7fde8",
-    "url": "./static/css/main.c38ad7a2.chunk.css"
+    "revision": "1b45857a8fa6480e5deb",
+    "url": "./static/css/main.2c070104.chunk.css"
   },
   {
     "revision": "9eb600ee07a27cdad64f",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "./static/media/lato-black.5407de99.eot"
   },
   {
-    "revision": "5f46f9c0e2c988893b80b2717d764dd0",
-    "url": "./static/media/lato-black.5f46f9c0.ttf"
-  },
-  {
     "revision": "951e81fd509ea2b6076cbc0033171215",
     "url": "./static/media/lato-black.951e81fd.woff"
+  },
+  {
+    "revision": "5f46f9c0e2c988893b80b2717d764dd0",
+    "url": "./static/media/lato-black.5f46f9c0.ttf"
   },
   {
     "revision": "2d4919ce2e98d98674657605ceef758b",
@@ -56,12 +56,12 @@ self.__precacheManifest = [
     "url": "./static/media/lato-bold.eaa09e15.ttf"
   },
   {
-    "revision": "9d4de907915bc4fc9c740eaecc496001",
-    "url": "./static/media/lato-bold.9d4de907.svg"
-  },
-  {
     "revision": "8a6af3182a48e9e713931c04e6c656e8",
     "url": "./static/media/lato-bolditalic.8a6af318.eot"
+  },
+  {
+    "revision": "9d4de907915bc4fc9c740eaecc496001",
+    "url": "./static/media/lato-bold.9d4de907.svg"
   },
   {
     "revision": "1ea782637e4efcf4c7064a70f8325926",
@@ -72,20 +72,24 @@ self.__precacheManifest = [
     "url": "./static/media/lato-bolditalic.d7345403.ttf"
   },
   {
-    "revision": "ecdac858a62d54f7fde8",
-    "url": "./static/js/main.27c55f94.chunk.js"
+    "revision": "1b45857a8fa6480e5deb",
+    "url": "./static/js/main.7ddb6e22.chunk.js"
+  },
+  {
+    "revision": "cce53fc2eb9e68832563771801e3b84b",
+    "url": "./static/media/lato-italic.cce53fc2.eot"
   },
   {
     "revision": "3863ccceaaed0b457fa1480df4704e63",
     "url": "./static/media/lato-italic.3863ccce.woff"
   },
   {
-    "revision": "1ead7fde79bd4941a706563f6040e716",
-    "url": "./static/media/lato-bolditalic.1ead7fde.svg"
-  },
-  {
     "revision": "aadadb6c2547baa7d95dc820b621a020",
     "url": "./static/media/lato-italic.aadadb6c.ttf"
+  },
+  {
+    "revision": "48ba33428a5c8a007b384d91368d27cc",
+    "url": "./static/media/lato-italic.48ba3342.svg"
   },
   {
     "revision": "1b75c6e45bfc6d5659b119723a95fb0c",
@@ -100,12 +104,12 @@ self.__precacheManifest = [
     "url": "./static/media/lato-light.f652f545.ttf"
   },
   {
-    "revision": "48ba33428a5c8a007b384d91368d27cc",
-    "url": "./static/media/lato-italic.48ba3342.svg"
-  },
-  {
     "revision": "77f286e48a458105b9deb4433d0844d9",
     "url": "./static/media/lato-regular.77f286e4.eot"
+  },
+  {
+    "revision": "51c7f6a7f47413a9c8f610ea4c8dae1c",
+    "url": "./static/media/lato-light.51c7f6a7.svg"
   },
   {
     "revision": "27faf19206c7a20e8126bedc37c95458",
@@ -116,12 +120,12 @@ self.__precacheManifest = [
     "url": "./static/media/lato-regular.544d9697.ttf"
   },
   {
-    "revision": "51c7f6a7f47413a9c8f610ea4c8dae1c",
-    "url": "./static/media/lato-light.51c7f6a7.svg"
-  },
-  {
     "revision": "f1d025e1d5dc1b25678397fcf6ae70d7",
     "url": "./static/media/flat-ui-pro-icons-regular.f1d025e1.eot"
+  },
+  {
+    "revision": "29e34814fd123927dc7a0310b8f71ee5",
+    "url": "./static/media/lato-regular.29e34814.svg"
   },
   {
     "revision": "b850ecca5ab51e9035e6a36eb33b421a",
@@ -136,11 +140,7 @@ self.__precacheManifest = [
     "url": "./static/media/flat-ui-pro-icons-regular.dced010d.svg"
   },
   {
-    "revision": "29e34814fd123927dc7a0310b8f71ee5",
-    "url": "./static/media/lato-regular.29e34814.svg"
-  },
-  {
-    "revision": "9088f99574759a7e00110390b8334206",
+    "revision": "d26c57bad78ebc8294887f531b8211f0",
     "url": "./index.html"
   }
 ];
