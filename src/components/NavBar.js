@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import logo from '../images/wagon.png'
+import GitHubButton from 'react-github-btn'
 
 class NavBar extends Component {
     render() {
@@ -8,16 +9,9 @@ class NavBar extends Component {
                 <div className="navbar-header">
                     <img src={logo} className="img-responsive navbar-brand-logo" alt="logo"/>
                     <a className="navbar-brand" href="https://site-indexer-ui.herokuapp.com">Site Indexer</a>
-                </div>
-                <div className="navbar-collapse collapse">
-                    {/*<ul className="nav navbar-nav">*/}
-                        {/*<li className="active"><a href="#">Sites</a></li>*/}
-                    {/*</ul>*/}
-                    <ul className="nav navbar-nav navbar-right">
-                        <div className="padding pull-right">
-                            {/*<a className="github-button margin-top" href="https://github.com/nywton/site-index-ui" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>*/}
-                        </div>
-                    </ul>
+                    <div className="padding float-right">
+                        <GitHubButton href="https://github.com/nywton/site-index-ui" data-icon="octicon-star" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</GitHubButton>
+                    </div>
                 </div>
             </div>
         </div>);

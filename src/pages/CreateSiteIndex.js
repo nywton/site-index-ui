@@ -3,6 +3,7 @@ import SiteService from '../services/SiteService'
 import { css } from '@emotion/core';
 import PacManLoader from 'react-spinners/ClipLoader';
 import urlRegex from 'url-regex'
+import GitHubButton from 'react-github-btn'
 
 class CreateSiteIndex extends Component {
 
@@ -87,7 +88,7 @@ class CreateSiteIndex extends Component {
                     />
                 </div>
                 <div className="padding pull-right">
-                    <a className="github-button margin-top" href="https://github.com/nywton/site-index-ui" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+                    <GitHubButton href="https://github.com/nywton/site-index-ui" data-icon="octicon-star" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</GitHubButton>
                 </div>
 
                 <div className="container">
