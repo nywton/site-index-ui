@@ -1,11 +1,12 @@
 import React, {Component} from 'react'
+import logo from '../images/wagon.png'
 
 class NavBar extends Component {
     render() {
         return(<div className="navbar navbar-default navbar-static-top" role="navigation">
             <div className="container">
                 <div className="navbar-header">
-                    <a className="navbar-brand" href="https://site-indexer-ui.herokuapp.com">Site Indexer</a>
+                    <a className="navbar-brand" href="https://site-indexer-ui.herokuapp.com"><img src={logo} className="img-responsive" alt="logo"/>Site Indexer</a>
                 </div>
                 <div className="navbar-collapse collapse">
                     {/*<ul className="nav navbar-nav">*/}
